@@ -1,38 +1,27 @@
-# Logs
-logs
+# --- Node / React / Frontend ---
+node_modules/
+dist/
+build/
+.vite/
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-
-# Virtual environments
-.venv/
-env/
-venv/
-
-# Environment variables
-.env
-.env.*
-
+# --- Python / Backend ---
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+.venv/
+.env
+env/
+*.sqlite3
+
+# --- Environment files (ignore everywhere) ---
+# This ignores any .env file in any folder
+**/.env
+**/.env.*
+
+# --- OS / IDE / Misc ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
